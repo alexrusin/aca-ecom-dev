@@ -1,0 +1,36 @@
+#gallery_01 img{border:2px solid white; margin-top:5px;} 
+.active img{border:2px solid #333 !important;}
+.large-image {border:1px solid #e8e8e6;}
+.crossed {text-decoration: line-through;}
+.sale {color:#d90000;}
+
+.col-sm-offset-1 h3 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.col-sm-offset-1 img {
+	
+	border-radius:50%;
+	
+}
+
+.col-sm-offset-1 img:hover {
+	border-style:solid;
+	border-width: 2px;
+	border-color:#53baf5;
+	
+}
+
+#footer {
+	margin-top:50px !important;
+}
+
+
+
+.zoom-images {float: left; padding-right: 10px;}
+@media screen and (max-width: 577px) {
+   #gallery_01 {
+   		display:none;
+   }
+}
